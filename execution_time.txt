@@ -1,56 +1,25 @@
-WARNING: get_file_status: lstat() failed for /run/user/1000/gvfs: Permission denied
-WARNING: get_file_status: lstat() failed for /run/user/1000/doc: Permission denied
-WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/meta.db-shm' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/last-crawl.txt' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/meta.db-wal' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-shm' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-shm' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.config/mozc/.history.db' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.config/mozc/segment.db' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.config/mozc/cform.db' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.local/share/recently-used.xbel' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.local/share/gnome-shell/application_state' has been changed (changed attributes: c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/.local/state/wireplumber/restore-stream' has been changed (changed attributes: c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/home/eliza/my-server-log/execution_time.txt' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
-WARNING: failed to get ACL of /run/systemd/inhibit/10: No such file or directory
-WARNING: listxattrs failed for /run/systemd/inhibit/10:No such file or directory
-WARNING: lgetfilecon_raw failed for /run/systemd/inhibit/10: No such file or directory
-WARNING: hash calculation: open() failed for /run/systemd/inhibit/10: No such file or directory (hashsums could not be calculated)
-WARNING: failed to get ACL of /run/systemd/inhibit/10.ref: No such file or directory
-WARNING: listxattrs failed for /run/systemd/inhibit/10.ref:No such file or directory
-WARNING: lgetfilecon_raw failed for /run/systemd/inhibit/10.ref: No such file or directory
-WARNING: hash calculation: '/run/user/1000/dconf/user' has been changed (changed attributes: c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/var/lib/upower/history-rate-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: s+c+m+i+b, hash could not be calculated)
-WARNING: hash calculation: '/var/lib/upower/history-time-full-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/var/lib/upower/history-charge-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/var/lib/upower/history-time-empty-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
-WARNING: hash calculation: '/var/snap/canonical-livepatch/common/last-check' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/var/snap/canonical-livepatch/common/logs' has been changed (changed attributes: s+c+m, hash could not be calculated)
-WARNING: hash calculation: '/var/snap/canonical-livepatch/common/kernel-support-status' has been changed (changed attributes: c+m, hash could not be calculated)
-WARNING: hash calculation: '/var/snap/canonical-livepatch/common/kernel-sru-date' has been changed (changed attributes: c+m, hash could not be calculated)
-Command exited with non-zero status 7
+  ERROR: cannot get lock for file '/var/lib/aide/aide.db.new': Resource temporarily unavailable
+Command exited with non-zero status 21
 	Command being timed: "aide --config /etc/aide/aide.conf --update"
-	User time (seconds): 4202.59
-	System time (seconds): 181.11
-	Percent of CPU this job got: 97%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15:10
+	User time (seconds): 0.68
+	System time (seconds): 0.89
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1374824
+	Maximum resident set size (kbytes): 20472
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 5
-	Minor (reclaiming a frame) page faults: 630221
-	Voluntary context switches: 1347813
-	Involuntary context switches: 201153
+	Major (requiring I/O) page faults: 15
+	Minor (reclaiming a frame) page faults: 186091
+	Voluntary context switches: 3368
+	Involuntary context switches: 341
 	Swaps: 0
-	File system inputs: 106565019
-	File system outputs: 334968
+	File system inputs: 2304
+	File system outputs: 8
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
-	Exit status: 7
+	Exit status: 21
