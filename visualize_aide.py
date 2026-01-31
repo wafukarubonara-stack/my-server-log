@@ -1,13 +1,14 @@
 ##初回作成（2026/01/16作成）
+##更新（2026/01/31）- ファイル名を改善
 import matplotlib.pyplot as plt  # グラフ描画用
 import re                         # 文字列解析用
 import os                         # ファイル操作用
 import datetime                   # 日時取得用
 
 # --- 設定 ---
-time_log = "execution_time.txt"
+time_log = "aide_execution_time.txt"
 output_image = "aide_execution_trend.png"
-script_log = "script_usage.log"  # スクリプトの動作記録
+script_log = "aide_script_usage.log"  # スクリプトの動作記録
 
 def parse_time_log(path):
     """ログから実行時間を抽出"""
