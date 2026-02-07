@@ -1,20 +1,20 @@
   ERROR: cannot get lock for file '/var/lib/aide/aide.db.new': Resource temporarily unavailable
 Command exited with non-zero status 21
 	Command being timed: "aide --config /etc/aide/aide.conf --update"
-	User time (seconds): 0.85
-	System time (seconds): 1.15
+	User time (seconds): 0.81
+	System time (seconds): 1.33
 	Percent of CPU this job got: 118%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.69
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.81
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20548
+	Maximum resident set size (kbytes): 20204
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 189232
-	Voluntary context switches: 3060
-	Involuntary context switches: 580
+	Minor (reclaiming a frame) page faults: 188194
+	Voluntary context switches: 3012
+	Involuntary context switches: 521
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 8
