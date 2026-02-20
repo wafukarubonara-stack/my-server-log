@@ -1,25 +1,489 @@
-  ERROR: cannot get lock for file '/var/lib/aide/aide.db.new': Resource temporarily unavailable
-Command exited with non-zero status 21
+WARNING: get_file_status: lstat() failed for /run/user/1000/gvfs: Permission denied
+WARNING: get_file_status: lstat() failed for /run/user/1000/doc: Permission denied
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/.deploy_cache.db' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/icon-cache-v1.db' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/.dex_cache.db' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/LocalHistory/changes.storageData' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/LocalHistory/changes.storageRecordIndex' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/records.dat' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/attributes.dat' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/content.dat.hashToId' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/content.dat' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/extended-attributes/stubIndexStamp' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/segments_8x: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/segments_8x:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/segments_8x: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/segments_8x: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_h8_1.liv: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_h8_1.liv:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_h8_1.liv: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_h8_1.liv: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_f5_8.liv: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_f5_8.liv:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_f5_8.liv: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/gemini/bm25/_f5_8.liv: No such file or directory (hashsums could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/caches/huge-gists/1770297194503/483860.6b2e3ea2-61aa-4378-8567-a95806219d26' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-code-folding/graved-code-folding_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-code-folding/graved-code-folding' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-code-folding/graved-code-folding.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-code-vision/graved-code-vision.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-code-vision/graved-code-vision_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-code-vision/graved-code-vision' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-declarative-hints/graved-declarative-hints.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-declarative-hints/graved-declarative-hints_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-declarative-hints/graved-declarative-hints' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-doc-render/graved-doc-render.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-doc-render/graved-doc-render' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-doc-render/graved-doc-render_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-highlighting/graved-highlighting' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-highlighting/graved-highlighting.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-highlighting/graved-highlighting_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-parameter-hints/graved-parameter-hints_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-parameter-hints/graved-parameter-hints' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/editor/tabirate-d812816b/graved-parameter-hints/graved-parameter-hints.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/bytecodeanalysis/bytecodeAnalysis.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/bytecodeanalysis/bytecodeAnalysis.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/fastAttributes/Stubs.index.version.fast' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/fastAttributes/indexing.flag' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/fastAttributes/stubIndex.cumulativeBinaryBuilder.fast' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/fastAttributes/IdIndex.index.version.fast' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/fast_index_stamps/attributes' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/filenamewithoutextensionindex/FileNameWithoutExtensionIndex_inputs' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/filenamewithoutextensionindex/FileNameWithoutExtensionIndex_inputs.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/filenamewithoutextensionindex/FileNameWithoutExtensionIndex_inputs_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/filenamewithoutextensionindex/FileNameWithoutExtensionIndex.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/filenamewithoutextensionindex/FileNameWithoutExtensionIndex.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/filetypes/filetypes.index.mmap' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex_inputs.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex.storage.values.s' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex.storage.values' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex_inputs_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex.storage_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex_inputs' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/idindex/IdIndex.storage.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.binary.plus.expression/java.binary.plus.expression_inputs.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.binary.plus.expression/java.binary.plus.expression.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.binary.plus.expression/java.binary.plus.expression_inputs_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.binary.plus.expression/java.binary.plus.expression.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.binary.plus.expression/java.binary.plus.expression_inputs' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.binary.plus.expression/java.binary.plus.expression.storage_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.fun.expression/java.fun.expression_inputs_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.fun.expression/java.fun.expression_inputs' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.fun.expression/java.fun.expression.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.fun.expression/java.fun.expression.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.fun.expression/java.fun.expression_inputs.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.null.method.argument/java.null.method.argument.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.null.method.argument/java.null.method.argument_inputs_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.null.method.argument/java.null.method.argument_inputs' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.null.method.argument/java.null.method.argument_inputs.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/java.null.method.argument/java.null.method.argument.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/Stubs.storage.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/Stubs.storage_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/Stubs.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.annotations/java.annotations.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.annotations/java.annotations.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.anonymous.baseref/java.anonymous.baseref.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.anonymous.baseref/java.anonymous.baseref.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.extlist/java.class.extlist.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.extlist/java.class.extlist.storage.values' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.extlist/java.class.extlist.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.extlist/java.class.extlist.storage.values.s' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.fqn/java.class.fqn.storage_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.fqn/java.class.fqn.storage.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.fqn/java.class.fqn.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.shortname/java.class.shortname.storage.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.shortname/java.class.shortname.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.shortname/java.class.shortname.storage.values.s' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.shortname/java.class.shortname.project' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.shortname/java.class.shortname.storage.values' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.class.shortname/java.class.shortname.project.len' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.field.name/java.field.name.storage.values.s' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.field.name/java.field.name.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.field.name/java.field.name.storage.values' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.field.name/java.field.name.storage.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.method.name/java.method.name.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.method.name/java.method.name.storage.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.method.parameter.types/java.method.parameter.types.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/java.method.parameter.types/java.method.parameter.types.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/jvm.static.member.name/jvm.static.member.name.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/jvm.static.member.name/jvm.static.member.name.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/jvm.static.member.type/jvm.static.member.type.storage.values.at' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/stubs/jvm.static.member.type/jvm.static.member.type.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index.storage_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index_inputs.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index_inputs' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index.storage.values' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index.storage.values.s' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index_inputs_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index.storage' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/index/trigram.index/Trigram.Index.storage.values.at' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-59-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-59-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-59-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-59-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-51-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-51-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-51-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-51-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-54-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-54-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-54-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-54-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-55-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-55-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-55-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-55-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-metrics.2026-02-20-22-18-12.csv' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/log/idea.log' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-57-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-57-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-57-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-57-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-53-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-53-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-53-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-53-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-52-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-52-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-52-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-52-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-58-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-58-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-58-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-58-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-56-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-56-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-56-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-22-56-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-23-00-05.json: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-23-00-05.json:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-23-00-05.json: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.cache/Google/AndroidStudio2025.2.3/log/open-telemetry-meters.2026-02-19-23-00-05.json: No such file or directory (hashsums could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/log/indexing-diagnostic/storage-diagnostic-2026-02-20-22-18-11.784.json' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/log/indexing-diagnostic/tabirate.d812816b/changed-files-pushing-events.json' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/log/indexing-diagnostic/tabirate.d812816b/report.html' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/maven.google/androidx/lifecycle/group-index.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/maven.google/androidx/navigation/group-index.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/maven.google/androidx/room/group-index.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/maven.google/com/google/android/gms/group-index.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/external_build_system/project.dat' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/external_build_system/modules/TabiRate.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/external_build_system/modules/TabiRate.app.androidTest.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/external_build_system/modules/TabiRate.app.main.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/external_build_system/modules/TabiRate.app.unitTest.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/external_build_system/project/libraries.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/indexingStamp/indexingStamp.dat' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/projects/tabirate.d812816b/project-model-cache/cache.data' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/vcs-log/TabiRat_d812816b_9ee3d4af/hashes/storage.8_i' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/Google/AndroidStudio2025.2.3/vcs-log/TabiRat_d812816b_9ee3d4af/hashes/storage.8' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/google-chrome/Default/Cache/Cache_Data/6180bc7c678f6b04_0' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/google-chrome/Default/Cache/Cache_Data/329db4bdc25c8e38_0' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/google-chrome/Default/Cache/Cache_Data/6bbfe696050f2bdc_0' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/google-chrome/Default/Cache/Cache_Data/5f2b47650bc4c17c_0' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/google-chrome/Default/Cache/Cache_Data/96ab1099b662287a_0' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/google-chrome/Default/Cache/Cache_Data/54cf6e18b4b2bab2_0' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/google-chrome/Default/Cache/Cache_Data/index-dir/the-real-index' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/meta.db-shm' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/last-crawl.txt' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/meta.db-wal' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-shm' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-shm' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/other.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/inline.factors.completion.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/actionSummary.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/recentProjects.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/kotlin-onboarding.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/androidLogcatFilterHistory.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/contributorSummary.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/options/features.usage.statistics.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/Google/AndroidStudio2025.2.3/workspace/39nlWAjm1pbOY4FOJpZ3qHf4cEE.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Reporting and NEL' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Cookies-journal' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/TransportSecurity' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Preferences' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Reporting and NEL-journal' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/History-journal' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Cookies' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Network Persistent State' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/DIPS-wal' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/DawnGraphiteCache/data_1' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/DawnWebGPUCache/data_1' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/GCM Store/000003.log' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/GPUCache/data_1' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/000115.log' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000065.ldb: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000065.ldb:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000065.ldb: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000065.ldb: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000067.ldb: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000067.ldb:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000067.ldb: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000067.ldb: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000071.ldb: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000071.ldb:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000071.ldb: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000071.ldb: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000070.log: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000070.log:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000070.log: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000070.log: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000069.ldb: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000069.ldb:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000069.ldb: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.config/google-chrome/Default/Local Storage/leveldb/000069.ldb: No such file or directory (hashsums could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Local Storage/leveldb/LOG' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Session Storage/000006.log' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/Sessions/Session_13416067097273369' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/WebStorage/QuotaManager' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/WebStorage/QuotaManager-journal' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/Default/shared_proto_db/000003.log' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/GrShaderCache/data_1' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/GraphiteDawnCache/data_1' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/ShaderCache/data_1' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/segmentation_platform/ukm_db' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/google-chrome/segmentation_platform/ukm_db-wal' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.config/mozc/.history.db' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/9.1.0/file-changes/last-build.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/9.1.0/fileHashes/fileHashes.bin' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/9.1.0/fileHashes/fileHashes.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/9.1.0/javaCompile/javaCompile.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/9.1.0/javaCompile/classAnalysis.bin' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/9.1.0/md-rule/md-rule.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/9.1.0/md-supplier/md-supplier.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/journal-1/journal-1.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/journal-1/file-access.bin' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/modules-2/modules-2.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/caches/modules-2/metadata-2.107/module-artifact.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/daemon/9.1.0/registry.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/daemon/9.1.0/registry.bin.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.gradle/daemon/9.1.0/daemon-4896.out.log' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/f43429a9-c54e-4058-8836-6d62acfafce1.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/f43429a9-c54e-4058-8836-6d62acfafce1.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/f43429a9-c54e-4058-8836-6d62acfafce1.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/f43429a9-c54e-4058-8836-6d62acfafce1.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/890c2be4-1ea5-4e80-a2b6-f008180822e6.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/890c2be4-1ea5-4e80-a2b6-f008180822e6.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/890c2be4-1ea5-4e80-a2b6-f008180822e6.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/890c2be4-1ea5-4e80-a2b6-f008180822e6.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/c23268ee-19a5-43c1-ab95-d765451c772f.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/c23268ee-19a5-43c1-ab95-d765451c772f.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/c23268ee-19a5-43c1-ab95-d765451c772f.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/c23268ee-19a5-43c1-ab95-d765451c772f.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/fd16c398-ba6e-4687-a019-95adae8d1b66.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/fd16c398-ba6e-4687-a019-95adae8d1b66.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/fd16c398-ba6e-4687-a019-95adae8d1b66.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/fd16c398-ba6e-4687-a019-95adae8d1b66.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/61c03a46-17f4-4e9c-82a8-ba64df717d0c.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/61c03a46-17f4-4e9c-82a8-ba64df717d0c.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/61c03a46-17f4-4e9c-82a8-ba64df717d0c.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/61c03a46-17f4-4e9c-82a8-ba64df717d0c.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/6c9667c9-9f26-4bcb-a7cb-a58a6455a1a6.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/6c9667c9-9f26-4bcb-a7cb-a58a6455a1a6.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/6c9667c9-9f26-4bcb-a7cb-a58a6455a1a6.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/6c9667c9-9f26-4bcb-a7cb-a58a6455a1a6.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/0ce28ffa-4452-4fff-b241-17448df5d97b.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/0ce28ffa-4452-4fff-b241-17448df5d97b.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/0ce28ffa-4452-4fff-b241-17448df5d97b.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/0ce28ffa-4452-4fff-b241-17448df5d97b.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/70e0241d-6026-465a-b7c5-8fb4e3ed4e54.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/70e0241d-6026-465a-b7c5-8fb4e3ed4e54.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/70e0241d-6026-465a-b7c5-8fb4e3ed4e54.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/70e0241d-6026-465a-b7c5-8fb4e3ed4e54.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/82ce1aa6-255d-4635-8913-ed36405adbe0.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/82ce1aa6-255d-4635-8913-ed36405adbe0.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/82ce1aa6-255d-4635-8913-ed36405adbe0.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/82ce1aa6-255d-4635-8913-ed36405adbe0.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/8b3c4914-a3b6-47c4-9ab2-c2d3e73774d7.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/8b3c4914-a3b6-47c4-9ab2-c2d3e73774d7.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/8b3c4914-a3b6-47c4-9ab2-c2d3e73774d7.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/8b3c4914-a3b6-47c4-9ab2-c2d3e73774d7.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/4934a1b7-6d49-4008-a890-65a522fa7a6d.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/4934a1b7-6d49-4008-a890-65a522fa7a6d.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/4934a1b7-6d49-4008-a890-65a522fa7a6d.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/4934a1b7-6d49-4008-a890-65a522fa7a6d.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/a8a796a4-9bab-48a9-b66e-b663ec7273ca.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/a8a796a4-9bab-48a9-b66e-b663ec7273ca.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/a8a796a4-9bab-48a9-b66e-b663ec7273ca.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/a8a796a4-9bab-48a9-b66e-b663ec7273ca.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/98e1b3e8-4f42-429c-ab51-fc5ed5ad7e4e.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/98e1b3e8-4f42-429c-ab51-fc5ed5ad7e4e.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/98e1b3e8-4f42-429c-ab51-fc5ed5ad7e4e.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/98e1b3e8-4f42-429c-ab51-fc5ed5ad7e4e.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/45ab7f0a-a81f-41c9-a323-1485ee1225c3.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/45ab7f0a-a81f-41c9-a323-1485ee1225c3.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/45ab7f0a-a81f-41c9-a323-1485ee1225c3.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/45ab7f0a-a81f-41c9-a323-1485ee1225c3.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/359754ec-4af7-49d2-b6e6-0bd8048e0f6d.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/359754ec-4af7-49d2-b6e6-0bd8048e0f6d.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/359754ec-4af7-49d2-b6e6-0bd8048e0f6d.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/359754ec-4af7-49d2-b6e6-0bd8048e0f6d.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/e778fbfe-d1ba-41b5-8692-4a04139b5430.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/e778fbfe-d1ba-41b5-8692-4a04139b5430.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/e778fbfe-d1ba-41b5-8692-4a04139b5430.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/e778fbfe-d1ba-41b5-8692-4a04139b5430.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/0928a5c5-9085-4076-85e5-48eb0927e0f2.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/0928a5c5-9085-4076-85e5-48eb0927e0f2.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/0928a5c5-9085-4076-85e5-48eb0927e0f2.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/0928a5c5-9085-4076-85e5-48eb0927e0f2.profile: No such file or directory (hashsums could not be calculated)
+WARNING: failed to get ACL of /home/eliza/.gradle/kotlin-profile/ae365e01-d503-4dc5-9839-ba579b9fa62d.profile: No such file or directory
+WARNING: listxattrs failed for /home/eliza/.gradle/kotlin-profile/ae365e01-d503-4dc5-9839-ba579b9fa62d.profile:No such file or directory
+WARNING: lgetfilecon_raw failed for /home/eliza/.gradle/kotlin-profile/ae365e01-d503-4dc5-9839-ba579b9fa62d.profile: No such file or directory
+WARNING: hash calculation: open() failed for /home/eliza/.gradle/kotlin-profile/ae365e01-d503-4dc5-9839-ba579b9fa62d.profile: No such file or directory (hashsums could not be calculated)
+WARNING: hash calculation: '/home/eliza/.java/.userPrefs/.userRootModFile.eliza' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.local/share/recently-used.xbel' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.local/share/gnome-shell/application_state' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/.local/state/wireplumber/restore-stream' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/9.1.0/checksums/checksums.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/9.1.0/executionHistory/executionHistory.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/9.1.0/executionHistory/executionHistory.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/9.1.0/fileChanges/last-build.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/9.1.0/fileHashes/fileHashes.bin' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/9.1.0/fileHashes/resourceHashesCache.bin' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/9.1.0/fileHashes/fileHashes.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/buildOutputCleanup/buildOutputCleanup.lock' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.gradle/buildOutputCleanup/outputFiles.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/.idea/workspace.xml' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build.gradle.kts' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/generated/ap_generated_sources/debug/out/com/wafukarubonara/tabirate/data/db/AppDatabase_Impl.java' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/generated/ap_generated_sources/debug/out/com/wafukarubonara/tabirate/data/db/HistoryDao_Impl.java' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/generated/ap_generated_sources/debug/out/com/wafukarubonara/tabirate/data/db/ExchangeRateDao_Impl.java' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/apk/debug/output-metadata.json' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/apk/debug/app-debug.apk' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/compile_and_runtime_r_class_jar/debug/processDebugResources/R.jar' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_0/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_1/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_2/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_3/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_3750e88940d03fbfb9da794e0d131c26cd6b9b41fd2561d17213380fa4055b6e_bucket_0/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_3750e88940d03fbfb9da794e0d131c26cd6b9b41fd2561d17213380fa4055b6e_bucket_1/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_3750e88940d03fbfb9da794e0d131c26cd6b9b41fd2561d17213380fa4055b6e_bucket_2/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_3750e88940d03fbfb9da794e0d131c26cd6b9b41fd2561d17213380fa4055b6e_bucket_3/graph.bin' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex' has been changed (changed attributes: s+c+m+i+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex' has been changed (changed attributes: s+c+m+i+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/global_synthetics_dex/debug/mergeDebugGlobalSynthetics/classes.dex' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/M2N8cH4YOasz92ze_nQ5CA==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1PFCwTDH8MBfR4XYK5s8JA==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/65JduKkooSrVCxN4cPF5pA==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bXyQl6bFKND64GjsDo_VQg==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4psvLZWkBgw59c1evZre6Q==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/o1eBAqtkPM9j9DulnIZptw==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/whFBGdXAI4V4kBxLDjBR1w==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/g71p+hUuvA4gFFKxp_OTQw==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mRjeKQFQOWqYuLlcro2VLg==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QaNF76ZvwpbeQ05pS4rEog==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/E+dxM4UqyS1ZZGMrX2SUXA==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/i+JjQ4tL31COGTDQDXtNLg==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1LjqewHOG+yRg7QnAC1WKw==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/krYfNLbE_5Y1bFwAFXM_bQ==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6fLnPXm9w8nB9b1DwthLHw==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VB0nGg_pKZg332qa2dW1gQ==' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/MainActivity.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/api/ExchangeRateResponse.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/api/RetrofitClient.class' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/api/ExchangeRateApiService.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/ExchangeRateDao_Impl.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/HistoryDao_Impl$2.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/HistoryDao.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/ExchangeRateDao.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/HistoryEntity.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/HistoryDao_Impl.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/ExchangeRateEntity.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/HistoryDao_Impl$3.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/AppDatabase_Impl.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/AppDatabase.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/AppDatabase_Impl$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/HistoryDao_Impl$4.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/ExchangeRateDao_Impl$2.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/ExchangeRateDao_Impl$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/HistoryDao_Impl$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/db/ExchangeRateDao_Impl$3.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/repository/ExchangeRateRepository$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/data/repository/ExchangeRateRepository.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/FragmentHistoryBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/ItemCurrencySpinnerSelectedBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/FragmentConverterBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/ActivityMainBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/FragmentSettingsBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/ItemCurrencySpinnerBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/ItemHistoryBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/databinding/FragmentPaymentBinding.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/domain/model/Currency.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/domain/model/ConversionResult.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/converter/CurrencySpinnerAdapter.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/converter/ConverterFragment$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/converter/ConverterFragment$2.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/converter/ConverterFragment.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/converter/ConverterViewModel.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/history/HistoryAdapter$OnItemDeleteListener.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/history/HistoryFragment.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/history/HistoryFragment$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/history/HistoryAdapter.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/history/HistoryAdapter$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/history/HistoryAdapter$ViewHolder.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/payment/PaymentFragment$2.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/payment/PaymentFragment$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/payment/PaymentFragment.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/payment/PaymentCalculation.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/payment/PaymentViewModel.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/settings/SettingsFragment$1.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/settings/SettingsFragment.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wafukarubonara/tabirate/presentation/shared/SharedViewModel.class' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/output-metadata.json' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/merged_java_res/debug/mergeDebugJavaResource/base.jar' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/merged_manifests/debug/processDebugManifest/output-metadata.json' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/wafukarubonara/tabirate/data/api/RetrofitClient.dex' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/outputs/logs/manifest-merger-debug-report.txt' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin' has been changed (changed attributes: s+c+m+i+b, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/app/src/main/java/com/wafukarubonara/tabirate/data/api/RetrofitClient.java' has been changed (changed attributes: s+c+m, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/AndroidStudioProjects/TabiRate/build/reports/problems/problems-report.html' has been changed (changed attributes: c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/home/eliza/my-server-log/execution_time.txt' has been changed (changed attributes: s+c+m+b, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/fwupd/metadata/lvfs/metadata.xml.zst.jcat' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/fwupd/metadata/lvfs/metadata.xml.zst' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/snapd/state.json' has been changed (changed attributes: s+c+m+i+b, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/systemd/timers/stamp-fwupd-refresh.timer' has been changed (changed attributes: c+m, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/upower/history-rate-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: s+c+m+i+b, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/upower/history-time-full-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: s+c+m+i+b, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/upower/history-charge-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: s+c+m+i, hash could not be calculated)
+WARNING: hash calculation: '/var/lib/upower/history-time-empty-DELL_39DY56B-37-1332.dat' has been changed (changed attributes: c+m+i, hash could not be calculated)
+Command exited with non-zero status 1
 	Command being timed: "aide --config /etc/aide/aide.conf --update"
-	User time (seconds): 0.64
-	System time (seconds): 0.84
-	Percent of CPU this job got: 116%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.27
+	User time (seconds): 3409.44
+	System time (seconds): 194.45
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:02:11
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20268
+	Maximum resident set size (kbytes): 1016440
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 1
-	Minor (reclaiming a frame) page faults: 188660
-	Voluntary context switches: 3104
-	Involuntary context switches: 399
+	Major (requiring I/O) page faults: 59267
+	Minor (reclaiming a frame) page faults: 766318
+	Voluntary context switches: 1722969
+	Involuntary context switches: 59406
 	Swaps: 0
-	File system inputs: 136
-	File system outputs: 8
+	File system inputs: 106066855
+	File system outputs: 553536
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
-	Exit status: 21
+	Exit status: 1
