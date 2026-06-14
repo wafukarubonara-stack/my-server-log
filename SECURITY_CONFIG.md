@@ -1,6 +1,6 @@
 # セキュリティ設定ドキュメント
 
-**最終更新**: 2026/01/31  
+**最終更新**: 2026/06/14  
 **対象システム**: Inspiron 7370 (Ubuntu 24.04 LTS)
 
 ---
@@ -191,25 +191,111 @@ sudo crontab -l
 
 **場所**: `/usr/local/bin/aide-update-git.sh`
 
-**トリガー**: `apt upgrade` 実行後（バックグラウンド実行）
+**トリガー**: `apt upgrade` 実行後、**path unit 経由で 30 分遅延 + 6 時間デバウンス** で発火
 
-#### 4-2. APT連動設定
+主な機能:
+- `flock` による排他制御（多重起動防止）
+- `nice -n 19 ionice -c 3` で低優先度実行
+- `git push` 失敗時は logger に記録するだけで AIDE 本体は継続
+
+#### 4-2. APT連動設定（2026/06/11 再設計）
 
 **場所**: `/etc/apt/apt.conf.d/99aide-post-install`
 
 **内容**:
 ```bash
-#// OSのパッケージ更新(apt upgrade)完了後に、AIDEのスキャンとGitHubへのログ出力を自動実行する
-#DPkg::Post-Invoke {"/usr/local/bin/aide-update-git.sh"};
-
-#2026/01/16更新
-// スクリプトをバックグラウンド(&)で実行し、APTプロセスを即座に解放する
-DPkg::Post-Invoke {"/usr/local/bin/aide-update-git.sh &"};
+// 2026/06/11 再設計:
+// マーカーファイル touch のみで apt セッションを即座に解放する。
+// 実体は systemd path unit が監視し、30分遅延 + 6時間デバウンスで発火する。
+DPkg::Post-Invoke {"/usr/bin/touch /run/aide-apt-pending 2>/dev/null || true";};
 ```
 
-#### 4-3. GitHub連動
+#### 4-3. systemd path unit（apt 後の遅延実行）
 
-スキャン結果は自動的に `/home/eliza/my-server-log` にコミット・プッシュされます。
+**場所**: `/etc/systemd/system/aide-apt-trigger.path`
+
+```
+[Unit]
+Description=Watch for apt-triggered AIDE update marker
+After=multi-user.target
+
+[Path]
+PathExists=/run/aide-apt-pending
+Unit=aide-apt-trigger.service
+
+[Install]
+WantedBy=multi-user.target
+```
+
+**場所**: `/etc/systemd/system/aide-apt-trigger.service`
+
+```
+[Unit]
+Description=AIDE update triggered by apt (delayed)
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStartPre=/bin/sleep 1800
+ExecStart=/usr/local/bin/aide-update-git.sh
+ExecStartPost=/bin/rm -f /run/aide-apt-pending
+Nice=19
+IOSchedulingClass=idle
+TimeoutStartSec=2h
+```
+
+#### 4-4. AIDE 設定最適化（2026/06/11 + 06/14）
+
+**場所**: `/etc/aide/aide.conf`
+
+主な変更:
+- `Checksums = sha256+sha512`（全ハッシュ方式から削減、CPU 約 1/5）
+- `num_workers = 6`（8コア中6本並列）
+- `report_level = changed_attributes`, `report_summarize_changes = yes`, `report_grouped = yes`
+- 除外: `.cache`, `.gradle`, `.npm`, Firefox/Chrome キャッシュ, `node_modules`, `build`, AIDE 自身の DB 等
+- Phase 4 追加除外: `/run`, `/home/eliza/.claude`, `/home/eliza/.config/google-chrome`, `/var/spool/postfix`, `/var/snap`, デーモン state
+- 明示包含: `.ssh`, `.bashrc`, `.profile`, `.config/autostart`, `.config/systemd/user`
+
+ベンチマーク:
+- aideinit: **5:36**（DB 73MB）
+- フルチェック: **5〜15 分**（元 62 分）
+- 検出件数（典型）: 5 件 / OK（元 2,494 件 / CRITICAL）
+
+#### 4-5. GitHub連動
+
+スキャン結果は `/home/eliza/my-server-log` にコミット・プッシュされます。
+
+---
+
+### 5. 週次 AIDE チェック + Claude Code Routine 連携（2026/06/14 完了）
+
+#### 5-1. 概要
+
+毎週 cron.weekly が AIDE `--check` を実行し、変更検出時は Claude Code Routine の fire API に POST。クラウド側で AI トリアージ後、Gmail 下書きに通知メールが作成される。API 失敗時は生レポートを `/var/mail/eliza` にフォールバック送信。
+
+#### 5-2. 関連ファイル
+
+| パス | 内容 |
+|---|---|
+| `/etc/cron.weekly/aide-check` | 週次実行スクリプト（64行） |
+| `/etc/aide/routine.env` | Routine ID / Token（**600 root:root、git に含めない**） |
+| `/var/log/aide/report-YYYY-MM-DD.log` | 週次レポート |
+| `/var/log/aide/fire-response.json` | fire API レスポンス |
+
+#### 5-3. API 仕様
+
+- エンドポイント: `https://api.anthropic.com/v1/claude_code/routines/${ROUTINE_ID}/fire`
+- 必須ヘッダ: `Authorization: Bearer $ROUTINE_TOKEN`, `anthropic-version: 2023-06-01`, `anthropic-beta: experimental-cc-routine-2026-04-01`
+- 通知先: Gmail `wafukarubonara@gmail.com` の**下書きフォルダ**（Gmail MCP は create_draft のみで send 不可）
+
+#### 5-4. 設計原則（変更しない）
+
+- curl にリトライを足さない（多重セッション化リスク）
+- `aide --update` をスクリプトに組み込まない（改ざんの自動正規化リスク）
+- ROUTINE_TOKEN は chat / git に絶対残さない
+- jq エスケープは `--rawfile` 必須（手書きの sed エスケープ禁止）
+
+詳細は `docs/aide-routine-handover.md`（設計書）と `docs/aide-routine-implementation.md`（実装記録）参照。
 
 ---
 
@@ -229,7 +315,10 @@ my-server-log/
 ├── aide_execution_trend.png     # AIDEグラフ
 ├── script_usage.log             # 動作ログ
 ├── clamscan_report.txt          # ClamAV最新結果
-└── clamscan_time.txt            # ClamAV実行時間履歴
+├── clamscan_time.txt            # ClamAV実行時間履歴
+└── docs/
+    ├── aide-routine-handover.md       # Routine 連携設計書
+    └── aide-routine-implementation.md # 実装記録（Phase 1〜4）
 ```
 
 ---
@@ -404,6 +493,17 @@ DPkg::Post-Invoke {"/usr/local/bin/aide-update-git.sh &"};
 ---
 
 ## 変更履歴
+
+### 2026/06/14
+- **AIDE Phase 4 ノイズ抑制**完了: 検出件数 2,494 → 5（-99.8%）、ステータス OK
+- **Claude Code Routine 連携**完了: 週次 fire API → Gmail 下書き AI トリアージ
+- 引き継ぎ資料を `docs/` に追加
+- SECURITY_CONFIG.md セクション 4 を 2026-06 アーキテクチャに更新、セクション 5 を新設
+
+### 2026/06/11
+- **AIDE 軽量化**: 62分 → 5〜11分（sha256+sha512、num_workers=6、除外追加）
+- **APT 連動再設計**: 即時バックグラウンド → path unit + 30分遅延 + 6時間デバウンス
+- `aide-update-git.sh` に flock / nice / ionice / ロガー追加
 
 ### 2026/01/31
 - 初版作成

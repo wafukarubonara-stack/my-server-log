@@ -1,0 +1,107 @@
+Start timestamp: 2026-06-14 14:08:47 +0900 (AIDE 0.18.6)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new
+Ignored e2fs attributes: EINV
+
+Summary:
+  Total number of entries:	895255
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		8
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d =.... mc.. .. . : /home/eliza/.config/mozc
+f >.... mci.H.. . : /home/eliza/.config/mozc/.history.db
+f =.... mc..H.. . : /home/eliza/.config/mozc/segment.db
+d =.... mc.. .. . : /home/eliza/.local/state/wireplumber
+f =.... mci.... . : /home/eliza/.local/state/wireplumber/restore-stream
+f =.... mc..... . : /home/eliza/my-server-log/aide_report.txt
+f <b... mc..H.. . : /home/eliza/my-server-log/execution_time.txt
+f >.... mc..H.. . : /home/eliza/security/port-monitor.log
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /home/eliza/.config/mozc
+ Mtime     : 2026-06-14 13:52:15 +0900        | 2026-06-14 14:16:15 +0900
+ Ctime     : 2026-06-14 13:52:15 +0900        | 2026-06-14 14:16:15 +0900
+
+File: /home/eliza/.config/mozc/.history.db
+ Size      : 49056                            | 49088
+ Mtime     : 2026-06-14 13:52:15 +0900        | 2026-06-14 14:16:15 +0900
+ Ctime     : 2026-06-14 13:52:15 +0900        | 2026-06-14 14:16:15 +0900
+ Inode     : 7035673                          | 7038241
+ SHA256    : 57Xn7KhdRG7HH1JLuBGAiWy5tC3VHBSm | RIl1S6gWsoQkKXOnL7Mx5q4cAh9HGHDE
+             4i2sQR7xM/4=                     | P8JK7n7xiM4=
+ SHA512    : e+GxbtM1M0BEX2cNykpYKhBQ70JSTCoR | 22LyvXPnJ0k+eIXTHaF8veAnIv5jVbW2
+             HLUQuqv0cjTYUtRjw/N3XkncF7QArS2S | uN3R28Y/lzNrErUaHWzPy2/ZT5KrWL/y
+             g9sO6/aGspDDDFQPwhyf+w==         | qXz8SkXLNX77I9r3hPLWpg==
+
+File: /home/eliza/.config/mozc/segment.db
+ Mtime     : 2026-06-14 13:46:38 +0900        | 2026-06-14 14:16:25 +0900
+ Ctime     : 2026-06-14 13:46:38 +0900        | 2026-06-14 14:16:25 +0900
+ SHA256    : TBw7YZcnN1z8/FsVmpbQqNx/mQYyXJYN | ZaGzbPCQxYtNi7CR0hR9daqqb+XvZBgZ
+             JCGO3EfToNY=                     | HJwHnaOqpLY=
+ SHA512    : u73NApGW2jHgbtsMKT4egstlHfdrTvew | JLw9bxP0ASdhyDNZXksallk5jAz15O+4
+             3PQHg/OvbcWinP8Jgt8nYMk06xZM8A+n | ZX2Lz1T/zMQLNgIKssERDsM8Pbl7ziYS
+             fYt3kqYJ1YRqvw4+DzjHvw==         | NQcmu0BxityHZVbLqdGvNg==
+
+Directory: /home/eliza/.local/state/wireplumber
+ Mtime     : 2026-06-14 13:55:28 +0900        | 2026-06-14 14:03:06 +0900
+ Ctime     : 2026-06-14 13:55:28 +0900        | 2026-06-14 14:03:06 +0900
+
+File: /home/eliza/.local/state/wireplumber/restore-stream
+ Mtime     : 2026-06-14 13:55:28 +0900        | 2026-06-14 14:03:06 +0900
+ Ctime     : 2026-06-14 13:55:28 +0900        | 2026-06-14 14:03:06 +0900
+ Inode     : 7038234                          | 7029612
+
+File: /home/eliza/my-server-log/aide_report.txt
+ Mtime     : 2026-06-11 18:31:59 +0900        | 2026-06-14 14:08:47 +0900
+ Ctime     : 2026-06-11 18:31:59 +0900        | 2026-06-14 14:08:47 +0900
+
+File: /home/eliza/my-server-log/execution_time.txt
+ Size      : 604                              | 0
+ Bcount    : 8                                | 0
+ Mtime     : 2026-06-11 18:36:27 +0900        | 2026-06-14 14:08:47 +0900
+ Ctime     : 2026-06-11 18:36:27 +0900        | 2026-06-14 14:08:47 +0900
+ SHA256    : +i0P/jUPte/r/VdkVHh+ebkuD/0t4u1+ | 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NM
+             HfsV09RhArM=                     | pJWZG3hSuFU=
+ SHA512    : 1E39oUbEZBZOz5wua5+7mLcoU8PtFuFP | z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXc
+             CPmwQgr96+c5BF8LgTTJr3uSuvDKNYre | g/SpIdNs6c5H0NE8XYXysP+DGNKHfuwv
+             9ZGQv9N4XPVRTvM1Hqo7nw==         | Y7kxvUdBeoGlODJ6+SfaPg==
+
+File: /home/eliza/security/port-monitor.log
+ Size      : 5354                             | 5389
+ Mtime     : 2026-06-14 13:00:01 +0900        | 2026-06-14 14:00:01 +0900
+ Ctime     : 2026-06-14 13:00:01 +0900        | 2026-06-14 14:00:01 +0900
+ SHA256    : ZxTqc/lg4xEuywYXPG9Em+X36ZGsFON6 | ZuJ+YEMJMoc5RKN1WbsGOSFc59uq/k/k
+             ZPelG9KqAtY=                     | K6wv1SNozTs=
+ SHA512    : wOKP9mZGnBBP4xO1EIGKhtugDxJeBWSp | buKNfSHdsVAMpfQUgWK6xYzy8C/UVzYy
+             czNBdc4n74uIAyXzX5aalF5LZE1jtww6 | oTSogLjqD2FECz5/VrGDgCg9beBRAVex
+             uOEbyN2mfmPx7T0Oxtw3mw==         | Hl/vbL/7aYG5D0XQI8xjsA==
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db
+ SHA256    : NI3HsXz8Y5emzey9Y+AlTE/HKGNv+10m
+             t0XD6+2FNpA=
+ SHA512    : DyJZ7pO/IFw5B+XWeovjSO4JJXEd/ZQv
+             vp/uaXACuPFqmVIYxfq3O757F6azG64a
+             cP9q0WNuOAjXjopy57q29Q==
+
+/var/lib/aide/aide.db.new
+ SHA256    : zzhmT/WoSGvDvuz//nTeeVI9gDoHTrqY
+             iAXID+/7Pww=
+ SHA512    : YZZVF8is/aF7N7Pk/b5k9U+o6fAPXRyf
+             tLRX+UhsXPM2hf6+6FZvMh8vq/XPLlk+
+             ygUGEVTH2QoJDkOUh3uwhw==
+
+
+End timestamp: 2026-06-14 14:22:11 +0900 (run time: 13m 24s)
